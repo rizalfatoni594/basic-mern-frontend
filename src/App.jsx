@@ -82,8 +82,8 @@ export default function App() {
         {todos.map((todo) => (
           <li key={todo._id}>
             {todo.text}
-            <button onClick={() => startEdit(todo)}>edit</button>
-            <button onClick={() => deleteTodo(todo._id)}>delete</button>
+            <button onClick={() => startEdit(todo)}>Edit</button>
+            <button onClick={() => deleteTodo(todo._id)}>Delete</button>
           </li>
         ))}
       </ul>
